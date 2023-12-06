@@ -1,4 +1,5 @@
 'use client'
+import sitLogo from "../assets/sit_logo.png";
 import React from "react";
 import {
   Accordion,
@@ -30,9 +31,9 @@ export default function AccordionCustomStyles() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <Link href="/">
           NAAC
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -55,13 +56,9 @@ export default function AccordionCustomStyles() {
     <div className="max-h-[768px] w-full">
       <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
-          <Typography
-            as="a"
-            href="#"
-            className="mr-4 cursor-pointer py-1.5 font-medium"
-          >
-            Symbiosis Institute of Technology, Nagpur
-          </Typography>
+          <div className="flex items-center gap-4">
+            <img src={sitLogo.src} alt="SIT Logo" className="mr-4 hidden lg:block h-10" />
+          </div>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
           </div>
