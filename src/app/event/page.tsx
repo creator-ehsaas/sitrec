@@ -32,7 +32,7 @@ export default function Event() {
                 className="p-1 font-normal"
             >
                 <Link href="/">
-                    AICTE
+                    NAAC
                 </Link>
             </Typography>
             <Typography

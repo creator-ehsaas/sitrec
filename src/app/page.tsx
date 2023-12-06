@@ -31,7 +31,7 @@ export default function AccordionCustomStyles() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          AICTE
+          NAAC
         </a>
       </Typography>
       <Typography
@@ -87,7 +87,7 @@ export default function AccordionCustomStyles() {
             open === 1 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
-          Curricular Aspects
+          Criteria 1: Curricular Aspects
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal flex flex-col gap-y-2">
         <hr className="mb-2"/>
@@ -107,7 +107,7 @@ export default function AccordionCustomStyles() {
             open === 2 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
-          Teaching-Learning and Evaluation
+         Criteria 2: Teaching-Learning and Evaluation
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal flex flex-col gap-y-2">
         <hr className="mb-2"/>
@@ -127,7 +127,7 @@ export default function AccordionCustomStyles() {
             open === 3 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
-          Research, Innovations and Extension
+          Criteria 3: Research, Innovations and Extension
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal flex flex-col gap-y-2">
         <hr className="mb-2"/>
@@ -147,7 +147,7 @@ export default function AccordionCustomStyles() {
             open === 4 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
-          Infrastructure and Learning Resources
+         Criteria 4: Infrastructure and Learning Resources
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal flex flex-col gap-y-2">
         <hr className="mb-2"/>
@@ -167,7 +167,7 @@ export default function AccordionCustomStyles() {
             open === 5 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
-          Student Support and Progression
+         Criteria 5: Student Support and Progression
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal flex flex-col gap-y-2">
         <hr className="mb-2"/>
@@ -187,7 +187,7 @@ export default function AccordionCustomStyles() {
             open === 6 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
-          Governance, Leadership and Management
+         Criteria 6: Governance, Leadership and Management
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal flex flex-col gap-y-2">
         <hr className="mb-2"/>
@@ -207,7 +207,7 @@ export default function AccordionCustomStyles() {
             open === 7 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
-           Institutional Values and Best Practices
+         Criteria 7:  Institutional Values and Best Practices
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal flex flex-col gap-y-2">
         <hr className="mb-2"/>
