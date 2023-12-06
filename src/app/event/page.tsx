@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import sitLogo from "../assets/sit_logo.png";
+import sitLogo from "../../assets/sit_logo.png";
 import {
   Card,
   CardHeader,
