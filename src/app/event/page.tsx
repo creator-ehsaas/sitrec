@@ -13,6 +13,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Event() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -81,7 +82,9 @@ export default function Event() {
       <div className="flex flex-row mx-8 my-8">
         <Card className="mt-6 w-96">
           <CardHeader color="blue-gray" className="relative h-56">
-            <img
+            <Image
+              height={616}
+              width={413}
               src="https://media.licdn.com/dms/image/D4D22AQFIL9S8Es4WJg/feedshare-shrink_2048_1536/0/1699093452501?e=1704931200&v=beta&t=Ja91vKfk5UWVKX02YyX4ibKWI3yLu8lM4u7UYRJedjI"
               alt="card-image"
             />
